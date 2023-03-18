@@ -1,0 +1,12 @@
+name: UHC Run
+version: 1.0
+author: 0v3rrr
+description: Plugin UHC RUN
+main: uhcrun.UHCRun
+api-version: 1.17
+commands:
+  uhcrun:
+    description: Commande principale du plugin UHC Run
+    usage: /uhcrun
+    aliases: [ur]
+depend: [Vault]

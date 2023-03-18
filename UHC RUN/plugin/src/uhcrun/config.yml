@@ -1,0 +1,22 @@
+# Configuration du plugin UHC Run
+
+# Paramètres du jeu
+game:
+  start-time: 60 # Durée du compte à rebours avant le début du jeu en secondes
+  border-size: 200 # Taille de la frontière en blocs
+  deathmatch-time: 600 # Durée du compte à rebours avant le deathmatch en secondes
+
+# Liste des équipes
+teams:
+  - name: rouge
+    color: red
+    max-players: 2
+  - name: bleu
+    color: blue
+    max-players: 2
+  - name: vert
+    color: green
+    max-players: 2
+  - name: jaune
+    color: yellow
+    max-players: 2
